@@ -9,5 +9,5 @@ Helper functions included:
 - `iteratorToArray(itr)` - convert an iterator to an array
 - `chunkAsync(chunkSize, items)` - chunk and iterator/array into batches
 - `chunkSync(chunkSize, items)` - chunk and iterator/array into batches
-- `measureNow()` and `measureDur(end, start)` - measure the time between two points in time using `process.hrtime`
+- `measureNow()` and `measureDur(end, start)` - measure the time between two points in time using [process.hrtime.bigint()](https://nodejs.org/docs/latest-v20.x/api/process.html#processhrtimebigint)
 - `replaceAll()` - `String.replaceAll()` wrapper with partial support for older version of javascript
